@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+!debug.keystore
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+android/app/build/
+android/app/src/debugOptimized/
+android/app/src/releaseOptimized/
+android/app/src/main/res/drawable-hdpi/splashscreen_logo.png
+android/app/src/main/res/drawable-mdpi/splashscreen_logo.png
+android/app/src/main/res/drawable-xhdpi/splashscreen_logo.png
+android/app/src/main/res/drawable-xxhdpi/splashscreen_logo.png
+android/app/src/main/res/drawable-xxxhdpi/splashscreen_logo.png
+android/build/
+ios/Pods/
+ios/build/
+
+# Temporary files
+*.log
+.npm/
+.eslintcache
+.cache/
